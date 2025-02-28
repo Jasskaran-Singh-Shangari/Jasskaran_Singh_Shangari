@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+body{
+    overflow-x: hidden;
+}
+.quote{
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#About{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: ; */
+    padding: 20px;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#About .Profile-picture2{
+    transform: rotateZ(-90deg);
+    border: 2px dashed black;
+    border-radius: 20px;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+#About .Reading-block{
+    width: 50%;
+    font-size: 20px;
+}
+
+#About .highlight{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.card .face{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    padding: 10px;
+    /* display: flex;   
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    transition: 2s ease-in-out;
+    backface-visibility: hidden;
+    border-radius: 25px;
+    transform: perspective(500px) rotateY(0deg)
+}
+.card .face.front{
+    background: #95B2B8;
+}
+.card:hover .face.front{
+    transform: perspective(500px) rotateY(180deg) 
+}
+.card .face.back{
+    background: #333;
+    color: #fff;
+    transform: perspective(500px) rotateY(180deg)
+}
+.card:hover .face.back{
+    transform: perspective(500px) rotateY(360deg) 
+}
+
+.card .face h2{
+    font-size: 4em;
+    /* text-transform: uppercase; */
+    transform: perspective(500px) translateZ(50px);
+}
+
+.card .face h3{
+    font-size: 1em;
+    text-transform: uppercase;
+    transform: perspective(500px) translateZ(50px);
+}
+
+.card .face a{
+    transform: perspective(500px) translateZ(50px);
+}
+
+.front h2{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.project-vid{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    padding: 10px;
+    /* display: flex;   
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    transition: 2s ease-in-out;
+    backface-visibility: hidden;
+    border-radius: 25px;
+    transform: perspective(500px) rotateY(0deg)
+}
+
+.repo_link{
+    background-image: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: font-size 0.5s ease-in-out;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+.repo_link:hover{
+    font-size: 20px;
+}
+
+
+.Skills h2{
+    text-align: center;
+    color: white;
+    font-size: 300px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* border: 2px solid black; */
+    height: 50%;
+}
+.Skills p{
+    color: White;
+    column-count: 2;
+    column-gap: 20px;
+    text-align:justify ;
+    margin-top:0;
+    margin-inline: 10px;
+    padding: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.containers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.containers .progress{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background: #444 linear-gradient(to right, transparent 50% , var(--clr) 0);
+}
+.containers .progress h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    z-index: 1;
+    font-weight: 500;
+}
+.containers .progress h3 span{
+    font-size: 0.65em;
+    font-weight: 400;
+}
+.containers .progress h4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--clr);
+}
+.containers .progress::before{
+    content: "";
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+.containers .progress::after{
+    content: "";
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: #222;
+}
+.containers .progress::before{
+    background: var(--clr);
+    transform: rotate(calc((var(--i) - 50) * 0.01turn));
+}
+
+.wheel1{
+    --i: 90;
+    --clr: #43f94a;
+}
+.wheel2{
+    --i: 80;
+    --clr:#2ccde9;
+}
+.wheel3{
+    --i: 80; 
+    --clr:#fb297b;
+}
+.wheel4{
+    --i: 85; 
+    --clr:#ffe047;
+}
+.wheel5{
+    --i: 75;
+    --clr: #43f94a;
+}
+
+.animate{
+    animation: float 2.5s ease-in-out infinite;
+}
+.one{
+    animation-delay: 1s;
+}.two{
+    animation-delay: 2s;
+}
+.three{
+    animation-delay: 3s;
+} 
+footer{
+    background-color: white;
+    /* border-top:2px solid black; */
+    font-family: "Roboto Mono", serif;
+    overflow: hidden;
+    padding:20px;
+}
+
+
+footer h2{
+    font-weight: bold;
+    text-align: start;
+    font-size: 25px;
+    margin: 20px;
+}
+footer p{
+    margin: 20px;
+    column-count: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    text-align: justify;
+}
+
+.links{
+    gap: 20px;
+    animation: marquee 20s linear infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-list{
+    list-style-type: none;
+    display:flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    overflow:hidden;
+    gap: 20px;
+}
+
+.link-list li{
+    margin-inline: 70px;
+}
+
+.link-list .image img{
+    filter: grayscale(100%);
+}
+.links:hover{
+    animation-play-state: paused;
+}
+
+.Banner-image {
+    background-image: url("images/Sit&Talk.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    filter: grayscale(60%);
+}
+
+.Banner-image ul{
+    list-style-type: none;
+    width: 100%;
+    height: 50%;
+    padding: 30px;
+    margin: 20px
+} 
+
+.Banner-image ul li{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0); 
+    
+    /* background-color: rgba(0, 0, 0, 0.297); */
+}
+
+li .icon{
+    transform: translateY(10%);
+}
+
+.details{
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+figure{
+    position:realtive;
+    margin: 5px;
+    width: 100%;
+}
+.Signature{
+    position: absolute;
+    right:0;
+    bottom: 5px;
+}
+.copyright{
+    position: absolute;
+    right:10px;
+    color: white;
+    font-size: 25px;
+}
+figcaption{
+    color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.toastBody{
+    font-size: 32px;
+    font-family:"Poppins", sans-serif
+}
+
+@keyframes animate-gradient{
+    from{
+        background-position: 100%;
+    }
+    to{
+        background-position: 200%;
+    }
+}
+@keyframes float{
+    0%{
+        transform: translateY(0)
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
