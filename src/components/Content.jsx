@@ -59,7 +59,7 @@ const Content = () => {
         <ul className='flex items-center justify-evenly space-x-8'>
           <li><Card vid_link="" back_heading="" back_content="" /></li>
           <li><Card vid_link="" back_heading="" back_content="" /></li>
-          <li><Card vid_link="public\Speed_detection.mp4" 
+          <li><Card vid_link="src/assets/vedios/Speed_detection.mp4" 
           back_heading="Speed Detection System" back_content=" A real-time vehicle speed detection system using YOLOv8, OpenCV, and Python to enhance road safety. Future upgrades include automated alerts, smart city integration, and adaptive AI models for improved accuracy."/></li>
         </ul>
         </section>
