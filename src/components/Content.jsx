@@ -30,7 +30,7 @@ const Content = () => {
               lineHeight: 1.2
             }}>Web <br /> Developer.</span>
             </p>
-            <a href="/" download="Jasskaran_Shangari_resume.pdf" onClick={downloadResume}><img className="rounded-full border-solid border-white border-[10px] absolute right-50 top-10 hover:scale-110 cursor-pointer transition-transform duration-300 w-[400px] h-[400px]"  src="https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg"  /></a>
+            <a href="/" download="Jasskaran_Shangari_resume.pdf" onClick={downloadResume}><img className="rounded-full border-solid border-white border-[10px] absolute right-50 top-10 hover:scale-110 cursor-pointer transition-transform duration-300 w-[400px] h-[400px]"  src="https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-src/assets/images-for-unfilled-user-profile-free-vector.jpg"  /></a>
         </section>
         {/* <section id="Links" className=" w-full h-[10vh] relative  text-white">
             <ul className='flex items-center justify-center text-5xl space-x-8'>
@@ -67,19 +67,19 @@ const Content = () => {
         <div className="Skills">
           <h2>Skills</h2>
             <ul className="flex items-center justify-center space-x-2">
-              <li><img src="public\icons\vs-code.png" alt="VS-Code" width="70px" height="70px" className="animate one" /></li>
-              <li><img src="public\icons\html.png" alt="HTML5" width="70px" height="70px" className='animate two' /></li>
-              <li><img src="public\icons\css.png" alt="CSS" width="70px" height="70px" className='animate one' /></li>
-              <li><img src="public\icons\js.png" alt="JavaScript" width="70px" height="70px" className='animate three' /></li>
-              <li><img src="public\icons\reactjs.webp" alt="ReactJS" width="70px" height="70px" className='animate two'  /></li>
-              <li><img src="public\icons\nodejs.webp" alt="NodeJS" width="70px" height="70px" className='animate one' /></li>
-              <li><img src="public\icons\expressjs.webp" alt="ExpressJS" width="70px" height="70px" className='animate two' /></li>
-              <li><img src="public\icons\mongodb.png" alt="Mongodb" width="70px" height="70px" className='animate one'/></li>
-              <li><img src="public\icons\python.webp" alt="Python" width="70px" height="70px" className='animate three' /></li>
-              <li><img src="public\icons\pandas.png" alt="Pandas" width="70px" height="70px" className='animate two' /></li>
-              <li><img src="public\icons\numpy.png" alt="Numpy" width="60px" height="60px" className='animate one' /></li>
-              <li><img src="public\icons\cpp.png" alt="CPP" width="70px" height="70px" className='animate three'/></li>
-              <li><img src="public\icons\database-mysql.svg" alt="MySQL" width="70px" height="70px" className='animate two'/></li>
+              <li><img src="src/assets/icons\vs-code.png" alt="VS-Code" width="70px" height="70px" className="animate one" /></li>
+              <li><img src="src/assets/icons\html.png" alt="HTML5" width="70px" height="70px" className='animate two' /></li>
+              <li><img src="src/assets/icons\css.png" alt="CSS" width="70px" height="70px" className='animate one' /></li>
+              <li><img src="src/assets/icons\js.png" alt="JavaScript" width="70px" height="70px" className='animate three' /></li>
+              <li><img src="src/assets/icons\reactjs.webp" alt="ReactJS" width="70px" height="70px" className='animate two'  /></li>
+              <li><img src="src/assets/icons\nodejs.webp" alt="NodeJS" width="70px" height="70px" className='animate one' /></li>
+              <li><img src="src/assets/icons\expressjs.webp" alt="ExpressJS" width="70px" height="70px" className='animate two' /></li>
+              <li><img src="src/assets/icons\mongodb.png" alt="Mongodb" width="70px" height="70px" className='animate one'/></li>
+              <li><img src="src/assets/icons\python.webp" alt="Python" width="70px" height="70px" className='animate three' /></li>
+              <li><img src="src/assets/icons\pandas.png" alt="Pandas" width="70px" height="70px" className='animate two' /></li>
+              <li><img src="src/assets/icons\numpy.png" alt="Numpy" width="60px" height="60px" className='animate one' /></li>
+              <li><img src="src/assets/icons\cpp.png" alt="CPP" width="70px" height="70px" className='animate three'/></li>
+              <li><img src="src/assets/icons\database-mysql.svg" alt="MySQL" width="70px" height="70px" className='animate two'/></li>
             
             </ul>
           <p>During my transformative years at Chandigarh University, while pursuing my B.Tech degree in Artificial Intelligence and Machine Learning, I cultivated a robust foundation in diverse programming languages and technologies. From mastering C++ to enhance my problem-solving and logical thinking skills, to diving deep into Python for its versatility and application in AI and machine learning projects, I have continuously sought to expand my technical proficiency. My journey also led me to explore the intricacies of web development through HTML, CSS, and JavaScript, where I developed an eye for design and functionality. Venturing into React.js further sharpened my ability to build dynamic, user-friendly web applications, enabling me to craft innovative digital experiences.
@@ -114,35 +114,35 @@ const Content = () => {
         <p>Are you looking for a passionate web developer to bring your ideas to life? I specialize in crafting innovative, visually engaging websites that leave a lasting impression. Whether it’s building dynamic user experiences, experimenting with creative animation styles, or collaborating on unique projects, I’m here to make your vision a reality. Let’s connect and discuss how I can contribute to your goals. Whether you have a specific project in mind, need assistance with web development, or simply want to chat about creative designs and cutting-edge animations, I’m always excited to collaborate and share ideas. Drop me a message, and I’ll get back to you as soon as possible. Together, we can create something extraordinary!
         </p>
         <ul className='list-none flex justify-center items-center space-x-10 '>
-          <li className='cursor-pointer grayscale hover:grayscale-0'><a href="https://www.instagram.com/jassi_sabka_bhai/#"><img src="public\icons\insta.webp" alt="Instagram" width="100px" height="100px" onClick={redirect} /></a></li>
-          <li className='cursor-pointer grayscale hover:grayscale-0' onClick={handleClick1}><img src="public\icons\whatsapp.png" alt="Whatsapp" width="80px" height="80px" /></li>
-          <li className='grayscale hover:grayscale-0'><a href="https://dev.to/jasskaran_singh_shangari"><img src="public\icons\dev-to.png" alt="Dev.to" width="70px"height="80px" onClick={redirect} /></a></li>
-          <li className='grayscale hover:grayscale-0'><a href="https://www.linkedin.com/in/jasskaranshangari/"><img src="public\icons\linked.webp" alt="LinkedIn" width="110px" onClick={redirect} /></a></li>
+          <li className='cursor-pointer grayscale hover:grayscale-0'><a href="https://www.instagram.com/jassi_sabka_bhai/#"><img src="src/assets/icons\insta.webp" alt="Instagram" width="100px" height="100px" onClick={redirect} /></a></li>
+          <li className='cursor-pointer grayscale hover:grayscale-0' onClick={handleClick1}><img src="src/assets/icons\whatsapp.png" alt="Whatsapp" width="80px" height="80px" /></li>
+          <li className='grayscale hover:grayscale-0'><a href="https://dev.to/jasskaran_singh_shangari"><img src="src/assets/icons\dev-to.png" alt="Dev.to" width="70px"height="80px" onClick={redirect} /></a></li>
+          <li className='grayscale hover:grayscale-0'><a href="https://www.linkedin.com/in/jasskaranshangari/"><img src="src/assets/icons\linked.webp" alt="LinkedIn" width="110px" onClick={redirect} /></a></li>
         </ul>
     </footer>
     <div className="Banner-image h-[50vh]" >
             <ul>
                 <li>
                     <span className="icon">
-                        <img src="images/mail.png" alt="Mail" width="50px" height="50px" data-text="Mail"/>
+                        <img src="src/assets/images/mail.png" alt="Mail" width="50px" height="50px" data-text="Mail"/>
                     </span>
                     <span class="details">jasskaransingh0007@gmail.com</span>
                 </li>
                 <li>
                     <span className="icon">
-                        <img src="images/call.png" alt="or Call Me" width="50px" height="50px" data-text="Call"/>
+                        <img src="src/assets/images/call.png" alt="or Call Me" width="50px" height="50px" data-text="Call"/>
                     </span>
                     <span class="details">+91 9911318555</span>
                 </li>
                 <li>
                     <span class="icon">
-                        <img src="images/location.png" alt="My location" width="50px" height="50px" data-text="Location"/>
+                        <img src="src/assets/images/location.png" alt="My location" width="50px" height="50px" data-text="Location"/>
                     </span>
                     <span class="details">Chandigarh University</span>
                 </li>
             </ul>
             <figure>
-                <img src="images/signature-B113D279FD0DD52B9436E196C074B85D.png" alt="Signature"class="Signature" /><p class="copyright">&copy;</p>
+                <img src="src/assets/images/signature-B113D279FD0DD52B9436E196C074B85D.png" alt="Signature"class="Signature" /><p class="copyright">&copy;</p>
                 <figcaption>Use Above Links</figcaption>
             </figure>
     </div>

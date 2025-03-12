@@ -304,7 +304,7 @@ footer p{
 }
 
 .Banner-image {
-    background-image: url("images/Sit&Talk.jpg");
+    background-image: url("src/assets/images/Sit&Talk.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
