@@ -22,6 +22,7 @@ import VS from "./icons/vs-code.png"
 import Whatsapp from "./icons/whatsapp.png"
 import Checklist from "./icons/checklist.png"
 import Placeholder1 from "./images/Placeholder1.jpg"
+import Project3 from "./vedios/Speed_detection.mp4"
 
 export const assets={
     Call, Talk, Mail, Sign,
@@ -29,5 +30,6 @@ export const assets={
     Devto, SQL, Express, HTML,
     Insta, JS, Linkedin, Mongo, Node,
     Numpy, Pandas, Python, React, VS,
-    Whatsapp, Checklist, Placeholder1
+    Whatsapp, Checklist, Placeholder1,
+    Project3
 }

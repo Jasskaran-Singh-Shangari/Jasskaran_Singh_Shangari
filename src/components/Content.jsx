@@ -60,8 +60,8 @@ const Content = () => {
         <ul className='flex items-center justify-evenly space-x-8'>
           <li><Card vid_link="" back_heading="" back_content="" /></li>
           <li><Card vid_link="" back_heading="" back_content="" /></li>
-          <li><Card vid_link="src/assets/vedios/Speed_detection.mp4" 
-          back_heading="Speed Detection System" back_content=" A real-time vehicle speed detection system using YOLOv8, OpenCV, and Python to enhance road safety. Future upgrades include automated alerts, smart city integration, and adaptive AI models for improved accuracy."/></li>
+          <li><Card vid_link={assets.Project3} 
+          back_heading="Speed Detection System" back_content=" A real-time vehicle speed detection system using YOLOv8, OpenCV, and Python to enhance road safety. Future upgrades include automated alerts, smart city integration, and adaptive AI models for improved accuracy." repo_link='https://github.com/Jasskaran-Singh-Shangari/Accident-Prevention'/></li>
         </ul>
         </section>
         <section id="Skills" className='min-h-screen w-full space-y-8 mb-[100px]'>
