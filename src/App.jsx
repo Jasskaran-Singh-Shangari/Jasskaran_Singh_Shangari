@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <div id="particles-js" className="w-[100vw] bg-black h-[500vh] -z-1">
+      <div id="particles-js" className="w-[100vw] bg-[#000] h-[500vh] -z-1">
         <Content />
         <ToastContainer position="top-center" bodyClassName="toastBody" autoClose={3000} />
       </div>

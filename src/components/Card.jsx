@@ -18,7 +18,7 @@ const Card = ({
             <h2>Demo</h2>
         </div>
         <div className="face back space-y-4" >
-            <h2>Abstract</h2>
+            <h2></h2>
             <h3 className='mb-3 text-[20px]' style={{
                 textDecoration: "underline"
             }}>{back_heading}</h3>

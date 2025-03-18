@@ -31,7 +31,7 @@ const Content = () => {
               lineHeight: 1.2
             }}>Web <br /> Developer.</span>
             </p>
-            <a href="/" download="Jasskaran_Shangari_resume.pdf" onClick={downloadResume}><img className="rounded-full border-solid border-white border-[10px] absolute right-50 top-10 hover:scale-110 cursor-pointer transition-transform duration-300 w-[400px] h-[400px]"  src="https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-src/assets/images-for-unfilled-user-profile-free-vector.jpg"  /></a>
+            <a href="/" download="Jasskaran_Shangari_resume.pdf" onClick={downloadResume}><img className="rounded-full border-solid border-white border-[10px] absolute right-50 top-10 hover:scale-110 cursor-pointer transition-transform duration-300 w-[400px] h-[400px]"  src={assets.Placeholder1}  /></a>
         </section>
         {/* <section id="Links" className=" w-full h-[10vh] relative  text-white">
             <ul className='flex items-center justify-center text-5xl space-x-8'>
@@ -68,19 +68,19 @@ const Content = () => {
         <div className="Skills">
           <h2>Skills</h2>
             <ul className="flex items-center justify-center space-x-2">
-              <li><img src="src/assets/icons\vs-code.png" alt="VS-Code" width="70px" height="70px" className="animate one" /></li>
-              <li><img src="src/assets/icons\html.png" alt="HTML5" width="70px" height="70px" className='animate two' /></li>
-              <li><img src="src/assets/icons\css.png" alt="CSS" width="70px" height="70px" className='animate one' /></li>
-              <li><img src="src/assets/icons\js.png" alt="JavaScript" width="70px" height="70px" className='animate three' /></li>
-              <li><img src="src/assets/icons\reactjs.webp" alt="ReactJS" width="70px" height="70px" className='animate two'  /></li>
-              <li><img src="src/assets/icons\nodejs.webp" alt="NodeJS" width="70px" height="70px" className='animate one' /></li>
-              <li><img src="src/assets/icons\expressjs.webp" alt="ExpressJS" width="70px" height="70px" className='animate two' /></li>
-              <li><img src="src/assets/icons\mongodb.png" alt="Mongodb" width="70px" height="70px" className='animate one'/></li>
-              <li><img src="src/assets/icons\python.webp" alt="Python" width="70px" height="70px" className='animate three' /></li>
-              <li><img src="src/assets/icons\pandas.png" alt="Pandas" width="70px" height="70px" className='animate two' /></li>
-              <li><img src="src/assets/icons\numpy.png" alt="Numpy" width="60px" height="60px" className='animate one' /></li>
-              <li><img src="src/assets/icons\cpp.png" alt="CPP" width="70px" height="70px" className='animate three'/></li>
-              <li><img src="src/assets/icons\database-mysql.svg" alt="MySQL" width="70px" height="70px" className='animate two'/></li>
+              <li><img src={assets.VS} alt="VS-Code" width="70px" height="70px" className="animate one" /></li>
+              <li><img src={assets.HTML} alt="HTML5" width="70px" height="70px" className='animate two' /></li>
+              <li><img src={assets.CSS} alt="CSS" width="70px" height="70px" className='animate one' /></li>
+              <li><img src={assets.JS} alt="JavaScript" width="70px" height="70px" className='animate three' /></li>
+              <li><img src={assets.React} alt="ReactJS" width="70px" height="70px" className='animate two'  /></li>
+              <li><img src={assets.Node} alt="NodeJS" width="70px" height="70px" className='animate one' /></li>
+              <li><img src={assets.Express} alt="ExpressJS" width="70px" height="70px" className='animate two' /></li>
+              <li><img src={assets.Mongo} alt="Mongodb" width="70px" height="70px" className='animate one'/></li>
+              <li><img src={assets.Python} alt="Python" width="70px" height="70px" className='animate three' /></li>
+              <li><img src={assets.Pandas} alt="Pandas" width="70px" height="70px" className='animate two' /></li>
+              <li><img src={assets.Numpy} alt="Numpy" width="60px" height="60px" className='animate one' /></li>
+              <li><img src={assets.CPP} alt="CPP" width="70px" height="70px" className='animate three'/></li>
+              <li><img src={assets.SQL} alt="MySQL" width="70px" height="70px" className='animate two'/></li>
             
             </ul>
           <p>During my transformative years at Chandigarh University, while pursuing my B.Tech degree in Artificial Intelligence and Machine Learning, I cultivated a robust foundation in diverse programming languages and technologies. From mastering C++ to enhance my problem-solving and logical thinking skills, to diving deep into Python for its versatility and application in AI and machine learning projects, I have continuously sought to expand my technical proficiency. My journey also led me to explore the intricacies of web development through HTML, CSS, and JavaScript, where I developed an eye for design and functionality. Venturing into React.js further sharpened my ability to build dynamic, user-friendly web applications, enabling me to craft innovative digital experiences.
@@ -121,7 +121,9 @@ const Content = () => {
           <li className='grayscale hover:grayscale-0'><a href="https://www.linkedin.com/in/jasskaranshangari/"><img src={assets.Linkedin} alt="LinkedIn" width="110px" onClick={redirect} /></a></li>
         </ul>
     </footer>
-    <div className="Banner-image h-[50vh]" >
+    <div className="Banner-image h-[50vh]" style={{
+      backgroundImage: `url(${assets.Talk})`
+    }} >
             <ul>
                 <li>
                     <span className="icon">

@@ -21,6 +21,7 @@ import React from "./icons/reactjs.webp"
 import VS from "./icons/vs-code.png"
 import Whatsapp from "./icons/whatsapp.png"
 import Checklist from "./icons/checklist.png"
+import Placeholder1 from "./images/Placeholder1.jpg"
 
 export const assets={
     Call, Talk, Mail, Sign,
@@ -28,5 +29,5 @@ export const assets={
     Devto, SQL, Express, HTML,
     Insta, JS, Linkedin, Mongo, Node,
     Numpy, Pandas, Python, React, VS,
-    Whatsapp, Checklist
+    Whatsapp, Checklist, Placeholder1
 }
