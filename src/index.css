@@ -25,7 +25,7 @@ body{
 
 #About .Profile-picture2{
     transform: rotateZ(-90deg);
-    border: 2px dashed black;
+    border: 6px solid black;
     border-radius: 20px;
     box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.5);
 

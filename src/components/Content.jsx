@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import Card from './Card'
 import { toast } from 'react-toastify'
+import { assets } from '../assets/assets.js'
 const Content = () => {
 
   const Whatsapp="+91 9911318555"
@@ -142,7 +143,7 @@ const Content = () => {
                 </li>
             </ul>
             <figure>
-                <img src="src/assets/images/signature-B113D279FD0DD52B9436E196C074B85D.png" alt="Signature"class="Signature" /><p class="copyright">&copy;</p>
+                <img src={assets.Sign} alt="Signature"class="Signature" /><p class="copyright">&copy;</p>
                 <figcaption>Use Above Links</figcaption>
             </figure>
     </div>
