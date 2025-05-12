@@ -58,9 +58,9 @@ const Content = () => {
           fontFamily: "Inter"
         }}>Here are some of the projects I've worked on, showcasing my skills in web development, AI/ML, and hardware-based innovations. Each project reflects my passion for solving real-world problems using technology.</p>
         <ul className='flex items-center justify-evenly space-x-8'>
-          <li><Card vid_link="" back_heading="" back_content="" /></li>
-          <li><Card vid_link="" back_heading="" back_content="" /></li>
-          <li><Card vid_link={assets.Project3} 
+          <li><Card front_heading="DevDiary" vid_link={assets.Project1} back_heading="" back_content="" /></li>
+          <li><Card front_heading="PinVoyage" vid_link={assets.Project2} back_heading="" back_content="" repo_link="" /></li>
+          <li><Card front_heading="DEMO" vid_link={assets.Project3} 
           back_heading="Speed Detection System" back_content=" A real-time vehicle speed detection system using YOLOv8, OpenCV, and Python to enhance road safety. Future upgrades include automated alerts, smart city integration, and adaptive AI models for improved accuracy." repo_link='https://github.com/Jasskaran-Singh-Shangari/Accident-Prevention'/></li>
         </ul>
         </section>

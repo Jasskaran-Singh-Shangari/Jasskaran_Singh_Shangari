@@ -22,6 +22,8 @@ import VS from "./icons/vs-code.png"
 import Whatsapp from "./icons/whatsapp.png"
 import Checklist from "./icons/checklist.png"
 import Placeholder1 from "./images/Placeholder1.jpg"
+import Project1 from "./vedios/DevDiaries-Share yourself - Google Chrome 2025-04-15 21-01-53.mp4"
+import Project2 from "./vedios/PinVoyage - Map your jouney, Share your story - Google Chrome 2025-04-27 17-22-47.mp4"
 import Project3 from "./vedios/Speed_detection.mp4"
 
 export const assets={
@@ -31,5 +33,5 @@ export const assets={
     Insta, JS, Linkedin, Mongo, Node,
     Numpy, Pandas, Python, React, VS,
     Whatsapp, Checklist, Placeholder1,
-    Project3
+    Project1, Project2, Project3
 }
