@@ -29,6 +29,8 @@ import Cognifyz from "./images/cognifyz.png"
 import SitAndTalk from "./images/SitAndTalk.jpg"
 import Framer from "./icons/Framer.png"
 import Next from "./icons/Next.js.png"
+import Github from "./icons/github.svg"
+
 
 export const assets={
     Call, Talk, Mail, Sign,
@@ -39,5 +41,5 @@ export const assets={
     Whatsapp, Checklist, Placeholder1,
     PinVoyage, DevDiary, ChatterBox,
     Cognifyz, SitAndTalk, Framer,
-    Next
+    Next, Github
 }

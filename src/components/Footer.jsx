@@ -4,10 +4,6 @@ import { toast } from 'react-hot-toast'
 
 const Footer = () => {
 
-
-  const Whatsapp="+91 9911318555"
-  const InstaLink="https://www.threads.net/@jassi_sabka_bhai?xmt=AQGzdaMhZ1TUq7q_kwMo4wwxXnK2a6O_CDK6JVwTob7T8ac"
-
     const handleClick1=()=>{
       navigator.clipboard.writeText(Whatsapp);
       toast(" 📋 Number Copied", 
@@ -21,7 +17,7 @@ const Footer = () => {
       )
     }
     const redirect=()=>{
-      toast("Wanna know me?", {
+      toast("Spoiler alert: I’m awesome.", {
         style:{
             borderRadius: '10px',
             background: '#333',
@@ -46,22 +42,26 @@ const Footer = () => {
     </p>
     <ul className='list-none flex justify-center items-center space-x-10 '>
      <li className='cursor-pointer grayscale hover:grayscale-0'>
-        <a href="https://www.instagram.com/jassi_sabka_bhai/#"><img src={assets.Insta} alt="Instagram" width="100px" height="100px" onClick={redirect} /></a>
+        <a href="https://www.instagram.com/jassi_sabka_bhai/#"><img src={assets.Insta} alt="Instagram" width="90px" height="90px" onClick={redirect} /></a>
       </li> 
-    <li className='cursor-pointer grayscale hover:grayscale-0' onClick={handleClick1}>
-      <img src={assets.Whatsapp} alt="Whatsapp" width="80px" height="80px" />
+    <li className='cursor-pointer grayscale hover:grayscale-0' >
+      <a href="https://github.com/Jasskaran-Singh-Shangari" >
+        <img src={assets.Github} alt="Github" width="60px" height="60px" onClick={redirect}/>
+      </a>
     </li> 
     <li className='grayscale hover:grayscale-0'>
-      <a href="https://www.linkedin.com/in/jasskaranshangari/"><img src={assets.Linkedin} alt="LinkedIn" width="110px" onClick={redirect} /></a>
+      <a href="https://www.linkedin.com/in/jasskaranshangari/"><img src={assets.Linkedin} alt="LinkedIn" width="100px" onClick={redirect} /></a>
     </li> 
     </ul>
   </div>
   
     {/* CONTACT FORM */}
+    
 </footer>
 
     <div className="Banner-image h-[50vh]" style={{
-      backgroundImage: `url(${assets.Talk})`
+      backgroundImage: `url(${assets.Talk})`,
+      loading: "eager",
     }} >
             <ul>
                 <li>
