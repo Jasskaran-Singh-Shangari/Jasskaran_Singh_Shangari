@@ -26,7 +26,7 @@ import PinVoyage from "./images/PinVoyage.png"
 import DevDiary from "./images/DevDiary.jpeg"
 import ChatterBox from "./images/ChatterBox.jpeg"
 import Cognifyz from "./images/cognifyz.png"
-
+import SitAndTalk from "./images/SitAndTalk.jpg"
 export const assets={
     Call, Talk, Mail, Sign,
     Location, CPP, CSS, 
@@ -35,5 +35,5 @@ export const assets={
     Numpy, Pandas, Python, React, VS,
     Whatsapp, Checklist, Placeholder1,
     PinVoyage, DevDiary, ChatterBox,
-    Cognifyz
+    Cognifyz, SitAndTalk
 }

@@ -30,7 +30,7 @@ const Content = () => {
               lineHeight: 1.2
             }}> Web <br /> Developer.</span>
             </p>
-            <a href="/" download="../assets/files/Jasskaran Singh Shangari.pdf" onClick={downloadResume}><img className="rounded-full border-solid border-white border-[10px] absolute right-40 top-20  hover:scale-110 cursor-pointer transition-transform duration-300 w-[400px] h-[400px]"  src={assets.Placeholder1}  /></a>
+            <a href="/Jasskaran_Singh_Shangari_Resume.pdf" download="Jasskaran Singh Shangari" onClick={downloadResume}><img className="rounded-full border-solid border-white border-[10px] absolute right-40 top-20  hover:scale-110 cursor-pointer transition-transform duration-300 w-[400px] h-[400px]"  src={assets.Placeholder1}  /></a>
         </section>
         <section id="About-me" className="h-[100vh] ">
           <p className="quote text-white">"Creativity is thinking up new things. Innovation is doing new things."</p>
