@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Content from './components/Content';
 import NavBar from './components/NavBar';
 import { ToastContainer } from 'react-toastify';
+import { Toaster } from 'react-hot-toast';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
     <>
       <div id="particles-js" className="w-[100vw] bg-[#000] h-[500vh] -z-1 ">
         <Content />
-        <ToastContainer position="top-center" bodyClassName="toastBody" autoClose={3000} />
+        <Toaster position="top-center" bodyClassName="toastBody" autoClose={3000} />
       </div>
     </>
   )

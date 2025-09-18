@@ -1,6 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-import { toast } from 'react-toastify'
+import { toast } from 'react-hot-toast'
 
 const Footer = () => {
 
@@ -10,10 +10,25 @@ const Footer = () => {
 
     const handleClick1=()=>{
       navigator.clipboard.writeText(Whatsapp);
-      toast(" 📋 Number Copied")
+      toast(" 📋 Number Copied", 
+        {
+          style:{
+            borderRadius: '10px',
+            background: '#333',
+            color: '#fff',
+          }
+        }
+      )
     }
     const redirect=()=>{
-      toast.info("You seem interested in learning more about me")
+      toast("Wanna know me?", {
+        style:{
+            borderRadius: '10px',
+            background: '#333',
+            color: '#fff',
+        }, 
+        icon: "😏"
+      })
     }
 
   return (
