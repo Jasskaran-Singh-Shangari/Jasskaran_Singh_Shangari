@@ -1,9 +1,78 @@
 import React from 'react'
+import { assets } from '../assets/assets'
+import { toast } from 'react-toastify'
 
 const Footer = () => {
+
+
+  const Whatsapp="+91 9911318555"
+  const InstaLink="https://www.threads.net/@jassi_sabka_bhai?xmt=AQGzdaMhZ1TUq7q_kwMo4wwxXnK2a6O_CDK6JVwTob7T8ac"
+
+    const handleClick1=()=>{
+      navigator.clipboard.writeText(Whatsapp);
+      toast(" 📋 Number Copied")
+    }
+    const redirect=()=>{
+      toast.info("You seem interested in learning more about me")
+    }
+
   return (
-    <div>
-      
+    <div className=''>
+        <footer id="Contact" className="p-8">
+  {/* Text section */}
+  <div className="">
+    <h2 className="text-2xl font-bold mb-4">Let’s Talk</h2>
+    <p className="text-md text-zinc-600 dark:text-zinc-300  sm:cols-2">
+      Are you looking for a passionate web developer to bring your ideas to life? 
+      I specialize in crafting innovative, visually engaging websites that leave a lasting impression. 
+      Whether it’s building dynamic user experiences, experimenting with creative animation styles, 
+      or collaborating on unique projects, I’m here to make your vision a reality.  <br />
+      Drop me a message, and I’ll get back to you as soon as possible. Together, we can create something extraordinary!
+    </p>
+    <ul className='list-none flex justify-center items-center space-x-10 '>
+     <li className='cursor-pointer grayscale hover:grayscale-0'>
+        <a href="https://www.instagram.com/jassi_sabka_bhai/#"><img src={assets.Insta} alt="Instagram" width="100px" height="100px" onClick={redirect} /></a>
+      </li> 
+    <li className='cursor-pointer grayscale hover:grayscale-0' onClick={handleClick1}>
+      <img src={assets.Whatsapp} alt="Whatsapp" width="80px" height="80px" />
+    </li> 
+    <li className='grayscale hover:grayscale-0'>
+      <a href="https://www.linkedin.com/in/jasskaranshangari/"><img src={assets.Linkedin} alt="LinkedIn" width="110px" onClick={redirect} /></a>
+    </li> 
+    </ul>
+  </div>
+  
+    {/* CONTACT FORM */}
+</footer>
+
+    <div className="Banner-image h-[50vh]" style={{
+      backgroundImage: `url(${assets.Talk})`
+    }} >
+            <ul>
+                <li>
+                    <span className="icon">
+                        <img src={assets.Mail} alt="Mail" width="50px" height="50px" data-text="Mail"/>
+                    </span>
+                    <span class="details">jasskaransingh0007@gmail.com</span>
+                </li>
+                <li>
+                    <span className="icon">
+                        <img src={assets.Call} alt="or Call Me" width="50px" height="50px" data-text="Call"/>
+                    </span>
+                    <span class="details">+91 9911318555</span>
+                </li>
+                <li>
+                    <span class="icon">
+                        <img src={assets.Location} alt="My location" width="50px" height="50px" data-text="Location"/>
+                    </span>
+                    <span class="details">Chandigarh University</span>
+                </li>
+            </ul>
+            <figure>
+                <img src={assets.Sign} alt="Signature"class="Signature" /><p class="copyright">&copy;</p>
+                <figcaption>Use Above Links</figcaption>
+            </figure>
+    </div>
     </div>
   )
 }

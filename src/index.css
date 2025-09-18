@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 body{
     overflow-x: hidden;
 }
@@ -41,15 +43,8 @@ body{
     font-weight: 700;
 }
 
-.card{
-    width: 300px;
-    height: 400px;
-    position: relative;
-    transform-style: preserve-3d;
-    font-family: "Poppins";
-    font-weight: bold;
-}
-.card .face{
+
+/* .project-vid{
     position: absolute;
     top:0;
     left:0;
@@ -57,68 +52,15 @@ body{
     height: 100%;
     transform-style: preserve-3d;
     padding: 10px;
-    /* display: flex;   
+    display: flex;   
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     text-align: center;
     transition: 2s ease-in-out;
     backface-visibility: hidden;
     border-radius: 25px;
     transform: perspective(500px) rotateY(0deg)
-}
-.card .face.front{
-    background: #95B2B8;
-}
-.card:hover .face.front{
-    transform: perspective(500px) rotateY(180deg) 
-}
-.card .face.back{
-    background: #333;
-    color: #fff;
-    transform: perspective(500px) rotateY(180deg)
-}
-.card:hover .face.back{
-    transform: perspective(500px) rotateY(360deg) 
-}
-
-.card .face h2{
-    font-size: 2.3rem;
-    /* text-transform: uppercase; */
-    transform: perspective(500px) translateZ(50px);
-}
-
-.card .face h3{
-    font-size: 1em;
-    text-transform: uppercase;
-    transform: perspective(500px) translateZ(50px);
-}
-
-.card .face a{
-    transform: perspective(500px) translateZ(50px);
-}
-
-.front h2{
-    text-transform: uppercase;
-    padding: 10px;
-}
-
-.project-vid{
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    padding: 10px;
-    /* display: flex;   
-    align-items: center;
-    justify-content: center; */
-    text-align: center;
-    transition: 2s ease-in-out;
-    backface-visibility: hidden;
-    border-radius: 25px;
-    transform: perspective(500px) rotateY(0deg)
-}
+} */
 
 .repo_link{
     background-image: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
@@ -134,10 +76,10 @@ body{
 }
 
 
-.Skills h2{
+.Skills h2, #projects h2{
     text-align: center;
     color: white;
-    font-size: 300px;
+    font-size: 250px;
     font-family: "League Gothic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -170,8 +112,8 @@ body{
 
 .containers .progress{
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     color: #fff;
     background: #444 linear-gradient(to right, transparent 50% , var(--clr) 0);
@@ -180,7 +122,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     font-size: 2em;
     z-index: 1;
     font-weight: 500;
@@ -259,6 +201,16 @@ footer{
     padding:20px;
 }
 
+/* {
+    font-family: "Bitcount Grid Double Ink", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+} */
+
+.form{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold; 
+}
+
+
 
 footer h2{
     font-weight: bold;
@@ -268,11 +220,11 @@ footer h2{
 }
 footer p{
     margin: 20px;
-    column-count: 2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
     text-align: justify;
 }
+
 
 .links{
     gap: 20px;

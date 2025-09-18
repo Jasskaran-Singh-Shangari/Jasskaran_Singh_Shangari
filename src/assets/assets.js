@@ -22,9 +22,10 @@ import VS from "./icons/vs-code.png"
 import Whatsapp from "./icons/whatsapp.png"
 import Checklist from "./icons/checklist.png"
 import Placeholder1 from "./images/Placeholder1.jpg"
-import Project1 from "./vedios/DevDiaries-Share yourself - Google Chrome 2025-04-15 21-01-53.mp4"
-import Project2 from "./vedios/PinVoyage - Map your jouney, Share your story - Google Chrome 2025-04-27 17-22-47.mp4"
-import Project3 from "./vedios/Speed_detection.mp4"
+import PinVoyage from "./images/Pinvoyage.png"
+import DevDiary from "./images/DevDiary.jpeg"
+import ChatterBox from "./images/ChatterBox.jpeg"
+import Cognifyz from "./images/cognifyz.png"
 
 export const assets={
     Call, Talk, Mail, Sign,
@@ -33,5 +34,6 @@ export const assets={
     Insta, JS, Linkedin, Mongo, Node,
     Numpy, Pandas, Python, React, VS,
     Whatsapp, Checklist, Placeholder1,
-    Project1, Project2, Project3
+    PinVoyage, DevDiary, ChatterBox,
+    Cognifyz
 }
