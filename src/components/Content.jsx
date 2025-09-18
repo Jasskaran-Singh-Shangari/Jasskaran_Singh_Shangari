@@ -46,7 +46,7 @@ const Content = () => {
         <h2 className='text-[150px]' style={{
           fontFamily: "Bebas Neue",
         }}>Projects</h2>
-        <p className='text-xl text-center' style={{
+        <p className='text-xl text-center mb-5' style={{
           fontFamily: "Inter"
         }}>Here are some of the projects I've worked on, showcasing my skills in web development. Each project reflects my passion for solving real-world problems using technology.</p>
         <ProjectGrid projects={exampleProjects} />
@@ -72,7 +72,7 @@ const Content = () => {
               <li><img src={assets.Next} alt="Next.js" width="70px" height="70px" className='animate one'/></li>
               
             </ul>
-          <p>During my transformative years at Chandigarh University, while pursuing my B.Tech degree in Artificial Intelligence and Machine Learning, I cultivated a robust foundation in diverse programming languages and technologies. From mastering C++ to enhance my problem-solving and logical thinking skills, to diving deep into Python for its versatility and application in AI and machine learning projects, I have continuously sought to expand my technical proficiency. My journey also led me to explore the intricacies of web development through HTML, CSS, and JavaScript, where I developed an eye for design and functionality. Venturing into React.js further sharpened my ability to build dynamic, user-friendly web applications, enabling me to craft innovative digital experiences.
+          <p className=''>During my transformative years at Chandigarh University, while pursuing my B.Tech degree in Artificial Intelligence and Machine Learning, I cultivated a robust foundation in diverse programming languages and technologies. From mastering C++ to enhance my problem-solving and logical thinking skills, to diving deep into Python for its versatility and application in AI and machine learning projects, I have continuously sought to expand my technical proficiency.   My journey also led me to explore the intricacies of web development through HTML, CSS, and JavaScript, where I developed an eye for design and functionality. Venturing into React.js further sharpened my ability to build dynamic, user-friendly web applications, enabling me to craft innovative digital experiences.
           </p>
           
           <div className="containers grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">

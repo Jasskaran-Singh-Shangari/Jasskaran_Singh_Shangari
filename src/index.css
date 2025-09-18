@@ -90,12 +90,12 @@ body{
     color: White;
     column-count: 2;
     column-gap: 20px;
-    text-align:justify ;
+    text-align:justify;
     margin-top:0;
     margin-inline: 10px;
     padding: 20px;
-    font-family: "Chakra Petch", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     font-style: normal;
 }
 .containers{
@@ -116,7 +116,7 @@ body{
     height: 140px;
     border-radius: 50%;
     color: #fff;
-    background: #444 linear-gradient(to right, transparent 50% , var(--clr) 0);
+    background: #222 linear-gradient(to right, transparent 50% , var(--clr) 0);
 }
 .containers .progress h3{
     position: absolute;
@@ -154,7 +154,7 @@ body{
     position: absolute;
     inset: 10px;
     border-radius: 50%;
-    background: #222;
+    background: #000;
 }
 .containers .progress::before{
     background: var(--clr);
@@ -304,10 +304,6 @@ figcaption{
     bottom: 0;
 }
 
-.toastBody{
-    font-size: 32px;
-    font-family:"Poppins", sans-serif
-}
 
 @keyframes animate-gradient{
     from{
