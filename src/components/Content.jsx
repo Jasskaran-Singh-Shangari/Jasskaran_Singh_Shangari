@@ -68,7 +68,9 @@ const Content = () => {
               <li><img src={assets.Pandas} alt="Pandas" width="70px" height="70px" className='animate two' /></li>
               <li><img src={assets.Numpy} alt="Numpy" width="60px" height="60px" className='animate one' /></li>
               <li><img src={assets.CPP} alt="CPP" width="70px" height="70px" className='animate three'/></li>
-              <li><img src={assets.Framer} alt="CPP" width="60px" height="60px" className='animate two'/></li>
+              <li><img src={assets.Framer} alt="FramerMotion" width="60px" height="60px" className='animate two'/></li>
+              <li><img src={assets.Next} alt="Next.js" width="70px" height="70px" className='animate one'/></li>
+              
             </ul>
           <p>During my transformative years at Chandigarh University, while pursuing my B.Tech degree in Artificial Intelligence and Machine Learning, I cultivated a robust foundation in diverse programming languages and technologies. From mastering C++ to enhance my problem-solving and logical thinking skills, to diving deep into Python for its versatility and application in AI and machine learning projects, I have continuously sought to expand my technical proficiency. My journey also led me to explore the intricacies of web development through HTML, CSS, and JavaScript, where I developed an eye for design and functionality. Venturing into React.js further sharpened my ability to build dynamic, user-friendly web applications, enabling me to craft innovative digital experiences.
           </p>
