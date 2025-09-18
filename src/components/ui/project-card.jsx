@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
     >
       
       {project.image ? (
-        <div className="h-56 w-full overflow-hidden">
+        <div className="h-[12rem] w-full overflow-hidden">
           <img
             src={project.image}
             alt={`${project.title} cover`}
@@ -30,7 +30,7 @@ function ProjectCard({ project }) {
           />
         </div>
       ) : (
-        <div className="h-56 w-full flex items-center justify-center bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-700 dark:to-purple-700">
+        <div className="h-[12rem] w-full flex items-center justify-center bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-700 dark:to-purple-700">
           <span className="text-3xl font-semibold text-white/95">{project.title.charAt(0)}</span>
         </div>
       )}

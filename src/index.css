@@ -79,8 +79,8 @@ body{
 .Skills h2, #projects h2{
     text-align: center;
     color: white;
-    font-size: 250px;
-    font-family: "League Gothic", sans-serif;
+    font-size: 180px;
+    font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     /* border: 2px solid black; */
@@ -167,7 +167,7 @@ body{
 }
 .wheel2{
     --i: 80;
-    --clr:#2ccde9;
+    --clr:#4deeea;
 }
 .wheel3{
     --i: 80; 
@@ -179,7 +179,7 @@ body{
 }
 .wheel5{
     --i: 75;
-    --clr: #43f94a;
+    --clr: #001EFF;
 }
 
 .animate{
@@ -200,16 +200,6 @@ footer{
     overflow: hidden;
     padding:20px;
 }
-
-/* {
-    font-family: "Bitcount Grid Double Ink", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-} */
-
-.form{
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: bold; 
-}
-
 
 
 footer h2{
@@ -256,7 +246,6 @@ footer p{
 }
 
 .Banner-image {
-    /* background-image: url("src/assets/images/Sit&Talk.jpg"); */
     background-size: cover;
     background-position: center;
     width: 100%;
