@@ -37,7 +37,7 @@ const Footer = () => {
   {/* Text section */}
   <div className="">
     <h2 className="text-2xl font-bold mb-4">Let’s Talk</h2>
-    <p className="text-md text-zinc-600 dark:text-zinc-300 columns-1 sm:columnsp-2">
+    <p className="text-md text-zinc-600 dark:text-zinc-300 columns-2">
       Are you looking for a passionate web developer to bring your ideas to life? 
       I specialize in crafting innovative, visually engaging websites that leave a lasting impression. 
       Whether it’s building dynamic user experiences, experimenting with creative animation styles, 
